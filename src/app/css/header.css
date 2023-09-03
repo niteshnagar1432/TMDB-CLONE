@@ -1,0 +1,55 @@
+.header{
+    width: 100vw;
+    height: 12vh;
+    background-color: #032541;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 3%;
+}
+.header .start{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.header .start img{
+    width: 150px !important;
+    height: 80px !important;
+    object-fit: contain;
+}
+.header .start span{
+    color: aliceblue;
+    font-weight: 500;
+    cursor: pointer;
+}
+.header .start span a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.header .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.header .end svg,span{
+    color: aliceblue;
+    font-weight: 500;
+    cursor: pointer;
+}
+.header  .end .link a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.header  .end .serchIcon{
+    font-size: 32px;
+    color: #0695c9 !important;
+    font-weight: 600;
+}
+.header  .end span.lang{
+    padding: 2px 3px !important;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    font-size: 14px !important;
+}

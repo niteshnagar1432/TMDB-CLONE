@@ -1,0 +1,118 @@
+.tranding-box {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg);
+    background-position: 50% 200px;
+    background-size: var(--maxPrimaryPageWidth);
+    background-repeat: no-repeat;
+    padding-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tranding-box .heder {
+    width: 100%;
+    height: 10%;
+    padding-left: 2%;
+    display: flex;
+    gap: 20px;
+}
+
+.tranding-box .heder .title {
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.tranding-box .heder .action {
+    width: 18vw;
+    height: 7vh;
+    border: 1px solid #032541;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tranding-box .heder .action .today {
+    width: 50%;
+    height: 100%;
+    background-color: #032541;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tranding-box .heder .action .today a {
+    background: linear-gradient(to right, #c0fecf 0, #1ed5a9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tranding-box .heder .action .week {
+    width: 50%;
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.tranding-box .tarnding-body {
+    width: 100vw;
+    height: 90%;
+    overflow-x: scroll;
+    margin-top: 3%;
+}
+.tranding-box .tarnding-body::-webkit-scrollbar{
+    display: none;
+}
+
+.tranding-box .tarnding-body .wrapper-card {
+    display: flex;
+    gap: 15px;
+    padding-left: 3%;
+}
+
+.tranding-box .tarnding-body .wrapper-card .card{
+    width: 18vw;
+    min-width: 18vw;
+    height: 100%;
+}
+.tranding-box .tarnding-body .wrapper-card .card .image{
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    border-radius: var(--imageBorderRadius);
+    width: 100%;
+    min-height: calc(150px*2);
+    height: calc(150px*2);
+    background: #dbdbdb;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.tranding-box .tarnding-body .wrapper-card .card .d{
+    width: 100%;
+    height: 10%;
+    padding: 5px 10px;
+}
+.tranding-box .tarnding-body .wrapper-card .card .image a{
+    width: 18vw;
+    height: 80% !important;
+}
+.tranding-box .tarnding-body .wrapper-card .card .image a img{
+    object-fit: cover;
+}
+.tranding-box .tarnding-body .wrapper-card .card .d .name{
+    color: black;
+    text-align: center;
+}
+.tranding-box .tarnding-body .wrapper-card .card .d .date{
+    color: black;
+    opacity: .5;
+
+}
