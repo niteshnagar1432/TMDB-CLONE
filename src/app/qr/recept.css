@@ -1,0 +1,27 @@
+.recept{
+    width: 60vw;
+    height: 60vh;
+    background-color: red;
+    margin-left: 10%;
+    padding: 10px 20px;
+    position: relative;
+    margin-top: 5%;
+}
+.recept
+.name{
+    padding-top: 10px;
+}
+.recept .qr{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.recept .qr .canvas{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+}
